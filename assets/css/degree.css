@@ -1,0 +1,40 @@
+/*Diplômes et formations*/
+div#degreeContain {
+    display: none;
+    font-size: 30px;
+}
+#degreeContain dl {
+    margin-top: 10px;
+}
+#degreeContain dt {
+    color: #00FFFF;
+    line-height: 100%;
+}
+#degreeContain dd {
+    line-height: 100%;
+}
+#degreeContain ul {
+    list-style-image: url('../img/materia.png');
+    margin-top: 10px;
+}
+#degreeContain li {
+    line-height: 100%;
+}
+
+.degree-title {
+    font-weight: bolder;
+    font-size: 34px;
+}
+.degree-title span {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.degree-boss {
+    color: #FF00FF;
+    font-weight: lighter;
+    font-size: 0.7em;
+}
+.degree-description {
+    color: #FFF000;
+    font-size: 0.7em;
+}

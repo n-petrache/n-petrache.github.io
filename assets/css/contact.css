@@ -1,0 +1,37 @@
+div#contactContain {
+    display: none;
+    font-size: 35px;
+}
+#contactContain span {
+    color: #00FFFF;
+}
+#contactContain a {
+    text-decoration: none;
+    color: white;
+}
+#contactContain a:hover .pointer {
+    display: inline;
+    position: absolute;
+    z-index: 10;
+    margin-top: 15px;
+    left: 40px;
+}
+#contactContain ul {
+    margin: 0;
+}
+#contactContain li img {
+    height: 30px;
+}
+.obj-num {
+    font-weight: bold;
+}
+@media (max-width:991px){
+    #contactContain a:hover .pointer {
+        left: 20px;
+    }
+}
+@media (max-width:767px){
+    #contactContain a:hover .pointer {
+        left: -20px;
+    }
+}

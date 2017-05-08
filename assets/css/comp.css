@@ -1,0 +1,34 @@
+/*Competences*/
+div#compContain {
+    display: none;
+}
+.compContent {
+    padding: 2em;
+}
+.compContent .barBorder {
+    width: 85%;
+    height: 20px;
+    margin-left: 27px;
+}
+.compContent .bar {
+    height: 100%;
+}
+
+.compBlock {
+    font-size: 30px;
+    margin: 0;
+}
+.compBlock p {
+    color: #00FFFF;
+    font-weight: bold;
+    text-align: center;
+}
+.compBlock dt {
+    font-weight: 500;
+    color: #FFF000;
+}
+.compBlock dd.exp {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: right;
+}

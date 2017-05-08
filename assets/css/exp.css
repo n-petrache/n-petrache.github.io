@@ -1,0 +1,39 @@
+/*Experience pro*/
+div#expContain {
+    display: none;
+    font-size: 30px;
+}
+#expContain dl {
+    margin-top: 10px;
+}
+#expContain dt {
+    color: #00FFFF;
+    line-height: 100%;
+}
+#expContain dd {
+    line-height: 100%;
+}
+#expContain ul {
+    list-style-image: url('../img/materia.png');
+    margin-top: 10px;
+}
+#expContain li {
+    line-height: 100%;
+}
+.exp-title {
+    font-weight: bolder;
+    font-size: 34px;
+}
+.exp-title span {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.exp-boss {
+    color: #FF00FF;
+    font-weight: lighter;
+    font-size: 0.7em;
+}
+.exp-description {
+    color: #FFF000;
+    font-size: 0.7em;
+}

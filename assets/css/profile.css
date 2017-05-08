@@ -1,0 +1,29 @@
+div#profileContain {
+    display: none;
+    font-size: 35px;
+}
+#profileContain img {
+    display: inline-block;
+}
+#profileContain h1 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: #00FFFF;
+}
+#profileContain dl {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+#profileContain dt {
+    text-align: left;
+    text-decoration: underline;
+}
+.data-title {
+    font-weight: bolder;
+}
+#description {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 7px;
+    text-indent: 1em;
+}
